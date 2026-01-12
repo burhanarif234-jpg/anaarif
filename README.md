@@ -1,72 +1,51 @@
-# Ana Arif - Professional Portfolio & Skills
+# Claude Code Skills Collection
 
-Welcome to my professional portfolio repository showcasing my skills, projects, and expertise in software development and technology.
+This repository contains a collection of custom Claude Code skills designed to enhance productivity and automate common tasks.
 
-## About Me
+## Skills Included
 
-I'm a skilled software developer with expertise in multiple programming languages, frameworks, and technologies. This repository serves as a showcase of my technical abilities and projects.
+### 1. Algebra Solver (`algebra-solver`)
+A comprehensive algebra problem solver for simplifying expressions, solving equations, factoring polynomials, and working with inequalities. Perfect for students and professionals who need to solve algebraic problems efficiently.
 
-## Technical Skills
+**Features:**
+- Solves linear and quadratic equations
+- Polynomial factoring
+- Expression simplification
+- Systems of equations
+- Inequalities
 
-### Programming Languages
-- **JavaScript/TypeScript** - Advanced proficiency in modern web development
-- **Python** - Expertise in scripting, automation, and backend development
-- **Java** - Enterprise-grade application development
-- **C++** - Systems programming and performance optimization
-- **Go** - Scalable backend services and distributed systems
+### 2. Meeting File Organizer (`meeting-organizer`)
+A systematic approach to organizing online meeting files on your laptop, ensuring easy retrieval and efficient management of meeting materials.
 
-### Web Development
-- **Frontend Frameworks** - React, Vue.js, Angular
-- **Backend Technologies** - Node.js, Express, Django, Flask
-- **Databases** - PostgreSQL, MySQL, MongoDB, Redis
-- **Cloud Platforms** - AWS, Azure, Google Cloud Platform
-- **DevOps** - Docker, Kubernetes, CI/CD pipelines
+**Features:**
+- Standardized folder structures
+- Consistent naming conventions
+- File type categorization
+- Archiving capabilities
+- Automated organization scripts
 
-### Specialized Skills
-- **Machine Learning** - TensorFlow, PyTorch, scikit-learn
-- **Data Engineering** - Apache Spark, Kafka, ETL pipelines
-- **Cybersecurity** - Penetration testing, vulnerability assessment
-- **Mobile Development** - React Native, Flutter, iOS/Android native
+### 3. Article Extractor (`article-extractor`)
+Extracts clean article content from web pages by removing ads, navigation elements, and other clutter while preserving the essential content.
 
-## Projects
+**Features:**
+- Removes HTML formatting and ads
+- Preserves headlines and author information
+- Handles various website formats
+- Converts web articles to clean text
+- Metadata extraction
 
-### Completed Projects
-- **E-commerce Platform** - Full-stack solution with payment integration
-- **Analytics Dashboard** - Real-time data visualization system
-- **API Gateway** - Microservices communication layer
-- **Automation Tools** - Custom scripts and utilities for business processes
+## Installation
 
-### Current Focus Areas
-- Cloud-native application development
-- AI/ML integration in enterprise applications
-- Security-first architecture design
-- Performance optimization and scalability
+To use these skills with Claude Code:
 
-## Experience Highlights
+1. Clone this repository
+2. Copy the skill folders to your Claude Code skills directory (typically `~/.claude/skills/` on Unix systems or `%USERPROFILE%\.claude\skills\` on Windows)
+3. Restart Claude Code to recognize the new skills
 
-- Led development teams on large-scale projects
-- Implemented CI/CD pipelines reducing deployment time by 70%
-- Architected microservices reducing system coupling
-- Mentored junior developers and conducted technical training
+## Usage
 
-## Tools & Technologies
+Each skill comes with comprehensive documentation in its respective `SKILL.md` file, detailing when and how to use each skill effectively.
 
-| Category | Technologies |
-|----------|--------------|
-| Version Control | Git, GitHub, GitLab |
-| IDE/Editors | VS Code, IntelliJ IDEA, Vim |
-| Testing | Jest, PyTest, Selenium, JUnit |
-| Monitoring | Prometheus, Grafana, ELK Stack |
-| Infrastructure | Terraform, Ansible, Jenkins |
+## Contributing
 
-## Contact & Connect
-
-Feel free to reach out for collaboration opportunities, consulting, or just to connect!
-
-- Email: [your-email@example.com]
-- LinkedIn: [linkedin-profile-url]
-- GitHub: [github-profile-url]
-
----
-
-*This README represents a professional portfolio highlighting diverse technical skills and experience.*
+Feel free to submit issues or pull requests to improve these skills or add new ones.
